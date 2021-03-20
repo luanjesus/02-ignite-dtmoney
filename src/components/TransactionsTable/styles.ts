@@ -34,6 +34,23 @@ export const Container = styled.div`
                 color: var(--red);
             }
 
+            &.icons {
+                button {  
+                    display: flex;                    
+                    justify-content: center;
+                    background: transparent;                    
+                    border: 0;                  
+                    transition: color 0.2s;
+                    color: var(--text-body);
+                    padding: 0.5rem;                    
+                    outline: 0px auto;
+                    &:hover {
+                        color: var(--red);                     
+                        transform: translateY(-0.1rem);
+                    }
+                }
+                
+            }
         }
     }
 `
